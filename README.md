@@ -4,7 +4,7 @@ Author: Yaji Hu
 Date: 2021/07/31
 
 Online Demo:
-http://yoloswag.be:4501
+http://yaji.link:4500/
 
 1. Create a post by click Create Post button, which consists of three fields (author name, author email, free text area).
 
