@@ -1,0 +1,93 @@
+.counter-btns{
+    display: flex;
+    justify-content: center;
+}
+
+.counter-btns button{
+   margin: 0 5px;
+   text-transform: lowercase;
+}
+
+.namecard{
+    text-transform: capitalize;
+}
+
+button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2196F3 !important;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    text-align:center; 
+}
+
+.remove-btn {
+    cursor: pointer;
+    color: red !important;
+    /* padding-top: 15px; */
+    
+}
+
+table { 
+    border-collapse: collapse; 
+    table-layout: fixed;
+} 
+
+th { 
+    width:500px; 
+    text-align:center; 
+    border:1px solid black; 
+    padding:5px;
+} 
+
+td { 
+    /* width: 500px;;
+    max-width: 200px; */
+    /* min-width: 350px;  */
+    text-align:center; 
+    border:1px solid black; 
+    padding:5px;
+    word-wrap:break-word;
+} 
+
+.column {
+    float: left;
+    width: 33.33%;
+    word-wrap:break-word;
+    text-align: center;
+    border:1px solid black; 
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+
+.Modal {
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    right: 20%;
+
+    background-color: #fff;
+  }
+
+  .edit-btn{
+    /* position: absolute; */
+    height: 43px;
+  }
